@@ -1,76 +1,80 @@
-
-*{
-    margin:0;
+* {
+  margin: 0;
 }
-.container{
-    position: absolute;
-    height:100%;
-    width:100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image: linear-gradient(to bottom, darkgrey, grey, white);
+body,
+html {
 }
-.sample{
-    border:5px solid black;
-    width:500px;
-    height:250px;
-    border-radius: 10px;
-    box-shadow: 0 10px 15px black;
+.container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(104, 104, 236);
 }
-
-.head{
-    text-align: center;
-    font-weight: bold;
-    font-size: 20px;
-    margin-top: 10px;
+.sample {
+  border: 5px solid black;
+  max-width: 500px;
+  height: 250px;
+  border-radius: 10px;
+  box-shadow: 0 10px 15px black;
 }
 
-#enter{
-    font-weight: bold;
-    margin-top: 40px;
-    margin-bottom: 5px;
-    margin-left: 10px;
-    font-size: 18px;
-}
-i{
-    font-size: 20px;
-    margin-left: 8px;
-    margin-right:5px;
-
-}
-.msg{
-    width:400px;
-    height:25px;
-    
-}
-.btn{
-    margin-top: 10px;
-    margin-left: 10px;
-    font-size: 18px;
-    border-radius: 5px;
-    background-color: grey;
-}
-.result{
-    text-align: center;
-    margin-top:30px;
-    font-size: 20px;
-    font-weight: bold;
-    animation: color 3s infinite  linear;
+.head {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 10px;
 }
 
+#enter {
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  font-size: 18px;
+}
+i {
+  font-size: 20px;
+  margin-left: 8px;
+  margin-right: 5px;
+  color: white;
+}
+.msg-div {
+  margin: 0 10px;
+}
+.msg {
+  min-width: 300px;
+  max-width: 400px;
+  height: 25px;
+}
+.btn {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  background-color: grey;
+}
+.result {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  animation: color 3s infinite linear;
+}
 
-@keyframes color{
-    0%{
-        color:red;
-    }
-    30%{
-        color:rgb(0, 0, 0);
-    }
-    60%{
-        color:purple;
-    }
-    100%{
-        color:darkred;
-    }
+@keyframes color {
+  0% {
+    color: red;
+  }
+  30% {
+    color: rgb(0, 0, 0);
+  }
+  60% {
+    color: purple;
+  }
+  100% {
+    color: darkred;
+  }
 }
